@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body{
+	background-color: red;
+	margin: px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+}
+
+h1{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 400px;
+	border-bottom: 2px solid white;
+	color: white;
+	padding-bottom: 15px;
+
+}
+
+.animeImage{
+	height:400px;
+	width: 500px;
+	margin: 20px;
+	transition: all 800ms;
+	padding: 5px;
+	
+	border-radius: 5px;
+	background-color: white;
+}
+
+.animeImage:hover{
+	transform: scale(1.1);
+}
